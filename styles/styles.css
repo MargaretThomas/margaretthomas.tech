@@ -40,6 +40,12 @@
     display: none;
 }
 
+/* ..Contact Me.. */
+.contact-me-image{
+    width: 40px;
+    height: 40px;
+}
+
 /* ..Footer.. */
 .footer{
     position: fixed;
