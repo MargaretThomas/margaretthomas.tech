@@ -4,6 +4,10 @@
     background: linear-gradient(90deg, rgba(231, 173, 249, 1) 0%, rgba(148, 230, 233, 1) 100%);
 }
 
+#container-body{
+    margin-bottom: 50px;
+}
+
 /* ..Navigation bar.. */
 /* Navigation bar styling */
 .navigation-bar-styling {
@@ -40,6 +44,20 @@
     display: none;
 }
 
+/* Body styling */
+.company-logo-container{
+    margin-bottom: 10px;
+}
+
+.company-logo{
+    height: 40px;
+    vertical-align: middle;
+}
+
+.immedia-blue{
+    background-color: #5c859e;
+}
+
 /* ..Contact Me.. */
 .contact-me-image{
     width: 40px;
@@ -48,12 +66,10 @@
 
 /* ..Footer.. */
 .footer{
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
 
-.footer-text{
+.footer-content{
     text-align: center;
 }
 
