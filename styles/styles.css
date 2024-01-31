@@ -1,0 +1,4 @@
+.default-background {
+    background: rgb(231, 173, 249);
+    background: linear-gradient(90deg, rgba(231, 173, 249, 1) 0%, rgba(148, 230, 233, 1) 100%);
+}
