@@ -1,4 +1,81 @@
+/* ..General.. */
 .default-background {
     background: rgb(231, 173, 249);
     background: linear-gradient(90deg, rgba(231, 173, 249, 1) 0%, rgba(148, 230, 233, 1) 100%);
+}
+
+/* ..Navigation bar.. */
+/* Navigation bar styling */
+.navigation-bar-styling {
+    background-color: #e7adf9;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+/* Navigation bar items */
+.navigation-bar-styling a {
+    float: left;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Navigation bar items, on hover */
+.navigation-bar-styling a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Navigation bar items, when active */
+.navigation-bar-styling a.active {
+    background-color: #94e6e9;
+    color: #000;
+}
+
+/* Hide the link that should open and close the navigation-bar-styling on small screens */
+.navigation-bar-styling .icon {
+    display: none;
+}
+
+/* ..Footer.. */
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text{
+    text-align: center;
+}
+
+/* ..Media queries.. */
+/* Styling for small screens */
+@media screen and (max-width: 600px) {
+    .navigation-bar-styling a:not(:first-child) {
+        display: none;
+    }
+
+    .navigation-bar-styling a.icon {
+        float: right;
+        display: block;
+    }
+
+    .navigation-bar-styling.responsive {
+        position: relative;
+    }
+
+    .navigation-bar-styling.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navigation-bar-styling.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 }

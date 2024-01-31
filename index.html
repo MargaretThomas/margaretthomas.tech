@@ -14,6 +14,9 @@
         <!-- Custom styling -->
         <link rel="stylesheet" type="text/css" href="./styles/styles.css">
 
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <!-- Meta info -->
         <meta property="og:title" content="Porfolio of Margaret Thomas" />
         <meta property="og:description"
@@ -24,33 +27,86 @@
 
     <body class="default-background">
         <div class="container">
+            <div id="navigation-bar" class="navigation-bar-styling">
+                <a href="#about-me" class="active">About Me</a>
+                <a href="#my-experience">My Experience</a>
+                <a href="#my-achievements">My Achievements</a>
+                <a href="#contact-me">Contact Me</a>
+                <a href="#about-this-site">About This Site</a>
+                <a href="javascript:void(0);" class="icon"
+                    onclick="toggleNavigationBar()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
             <div class="row">
                 <div class="column">
-                    <h1>Hello there! I'm Margaret Thomas, a fullstack software
+                    <h3>Hi, I'm Margaret Thomas, a full stack software
                         developer based in Cape Town, South Africa.
-                    </h1>
-                    <h3>Welcome to my corner of the internet 👋</h3>
+                    </h3>
+                    <h5>Welcome to my corner of the internet 👋</h5>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div id="about-me" class="column">
+                    <h4>About Me</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="my-experience" class="column">
+                    <h4>My Experience</h4>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div id="my-achievements" class="column">
+                    <h4>My Achievements</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="about-this-site" class="column">
+                    <h4>About This Site</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="contact-me" class="column">
+                    <h4>Contact Me</h4>
                 </div>
             </div>
         </div>
-
+        <script>
+            function toggleNavigationBar() {
+                var x = document.getElementById("navigation-bar");
+                if (x.className === "navigation-bar-styling") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "navigation-bar-styling";
+                }
+            }
+        </script>
     </body>
-    <footer>
+    <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="column">
-                    This website is powered by
-                    <a href="https://domains.squarespace.com/"
-                        title="Squarespace" target="_blank"
-                        class="w3-hover-opacity">Squarespace</a>,
+                    <p class="footer-text">
+                        This website is powered by
+                        <a href="https://domains.squarespace.com/"
+                            title="Squarespace" target="_blank"
+                            class="w3-hover-opacity">Squarespace</a>,
 
-                    <a href="https://aws.amazon.com/console/" title="AWS"
-                        target="_blank" class="w3-hover-opacity">AWS</a>
-                    and
+                        <a href="https://aws.amazon.com/console/" title="AWS"
+                            target="_blank" class="w3-hover-opacity">AWS</a>
+                        and
 
-                    <a href="https://www.linkedin.com/in/margaret-thomas/"
-                        title="Margaret Thomas" target="_blank"
-                        class="w3-hover-opacity">Margaret Thomas</a>
+                        <a href="https://www.linkedin.com/in/margaret-thomas/"
+                            title="Margaret Thomas" target="_blank"
+                            class="w3-hover-opacity">Margaret Thomas</a>
+                    </p>
                 </div>
             </div>
         </div>
