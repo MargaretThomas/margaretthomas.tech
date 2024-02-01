@@ -592,6 +592,9 @@
                 var x = document.getElementById("navigation-bar");
                     x.className = "navigation-bar-styling";
             }
+            window.onload = function() {
+                document.getElementById("year").innerHTML = new Date().getFullYear();
+            }
         </script>
     </body>
     <footer class="footer">
@@ -640,6 +643,8 @@
                             title="Margaret Thomas" target="_blank">Margaret
                             Thomas</a>
                     </p>
+
+                    <p class="footer-content">&copy; <span id="year"></span> Margaret Thomas</p>
                 </div>
             </div>
         </div>
