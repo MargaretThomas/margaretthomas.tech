@@ -8,6 +8,14 @@
     margin-bottom: 50px;
 }
 
+.section-row{
+    margin-bottom: 25px;
+}
+
+.section-heading{
+    text-decoration: underline;
+}
+
 /* ..Navigation bar.. */
 /* Navigation bar styling */
 .navigation-bar-styling {
@@ -56,6 +64,19 @@
 
 .immedia-blue{
     background-color: #5c859e;
+}
+
+/* Achievements styling */
+.achievements-image-container{
+    text-align: center;
+}
+
+.achievements-image{
+    max-width: 50%;
+}
+
+.achievements-image-small{
+    max-width: 30%;
 }
 
 /* ..Contact Me.. */
