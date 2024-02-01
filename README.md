@@ -26,7 +26,7 @@ I used Pixabay to find and use royalty free images. In this case, I needed an im
 #### W3SCHOOLS
 [https://www.w3schools.com/](https://www.w3schools.com/)
 
-I used W3Schools for code snippets and as a remembrall.
+I used W3Schools for code snippets and as a [https://harrypotter.fandom.com/wiki/Remembrall](remembrall).
 
 #### SQUARESPACE
 [https://domains.squarespace.com/](https://domains.squarespace.com/)
