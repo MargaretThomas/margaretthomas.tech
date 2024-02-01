@@ -79,6 +79,15 @@
     max-width: 30%;
 }
 
+/* About This Site */
+.tool-button{
+    margin-right: 10px;
+}
+
+.tool-description{
+    display: contents;
+}
+
 /* ..Contact Me.. */
 .contact-me-image{
     width: 40px;
@@ -120,5 +129,10 @@
         float: none;
         display: block;
         text-align: left;
+    }
+
+    /* About This Site */
+    .tool-description{
+        display: block;
     }
 }
