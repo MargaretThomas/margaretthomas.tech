@@ -47,3 +47,8 @@ I used AWS CodeCommit to host this site's repository.
 [https://aws.amazon.com/route53/](https://aws.amazon.com/route53/)
 
 I used Amazon Route 53 to route end users to this site.
+
+#### GOOGLE ANALYTICS
+[https://analytics.withgoogle.com/](https://analytics.withgoogle.com/)
+
+I am using Google Analytics to receive insights on the usage of this site.
