@@ -5,15 +5,16 @@
 }
 
 #container-body{
+    margin-top: 65px;
     margin-bottom: 50px;
-}
-
-.section-row{
-    margin-bottom: 25px;
 }
 
 .section-heading{
     text-decoration: underline;
+}
+
+#about-me, #my-experience, #my-achievements, #about-this-site{
+    padding-top: 65px;
 }
 
 /* ..Navigation bar.. */
@@ -21,18 +22,25 @@
 .navigation-bar-styling {
     background-color: #e7adf9;
     overflow: hidden;
-    margin-bottom: 25px;
+    margin-bottom: 25px;    
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
 }
 
 /* Navigation bar items */
 .navigation-bar-styling a {
     float: left;
     display: block;
+    padding-left: 20px;
+    padding-right: 20px;    
+    width: -webkit-fill-available;
     color: #000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
 }
 
 /* Navigation bar items, on hover */
@@ -113,10 +121,6 @@
     .navigation-bar-styling a.icon {
         float: right;
         display: block;
-    }
-
-    .navigation-bar-styling.responsive {
-        position: relative;
     }
 
     .navigation-bar-styling.responsive a.icon {
