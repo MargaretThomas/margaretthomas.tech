@@ -38,10 +38,10 @@ I am using Squarespace to purchase this domain because they are cost effective a
 
 I am using AWS Amplify Hosting to host this site.
 
-#### AWS CODECOMMIT
-[https://aws.amazon.com/codecommit/](https://aws.amazon.com/codecommit/)
+#### GITHUB
+[https://github.com/](https://github.com/)
 
-I am using AWS CodeCommit to host this site's repository.
+I am using GitHub to host this site's repository.
 
 #### AMAZON ROUTE 53
 [https://aws.amazon.com/route53/](https://aws.amazon.com/route53/)
