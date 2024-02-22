@@ -52,3 +52,9 @@ I am using Amazon Route 53 to route end users to this site.
 [https://analytics.withgoogle.com/](https://analytics.withgoogle.com/)
 
 I am using Google Analytics to receive insights on the usage of this site.
+
+#### META TAGS
+[https://metatags.io/](https://metatags.io/)
+
+The meta tags needed some attention so I used Meta Tags to preview and generate an enhance set of meta tags. 
+The previewing helped me quickly iterate the design of how the tags would translate on the different platforms.
